@@ -8,9 +8,10 @@ programa {
       escreva("Esse número é múltiplo de 3.\n")
     }
     se(numero%5==0){
-      escreva("Esse número é múltiplo de 5.\n")
-    }senao{
-      escreva("Este número não é múltiplo de 3 nem de 5\n")
+      escreva("\nEsse número é múltiplo de 5.")
+    }se(numero%3!=0 e numero%5!=0)
+    {
+      escreva("Este número não é múltiplo de 3 nem de 5")
     }
   }
 }
